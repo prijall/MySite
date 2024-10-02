@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+#dpic {
+    margin-right: 20px; /* Space between image and text */
+}
+
+.ppic {
+    width: 310px; /* Adjust size as needed */
+    border-radius: 50%; /* Optional: makes the image circular */
+    position: relative;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* img{
+    border-radius: 50%;
+    border: 25 px solid black;
+} */
+
+.hr{
+    width: 80%;
+    height: 7 px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    margin-bottom: 90 px;
+    background-color: black;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+.date{
+    margin-top: 0;
+}
