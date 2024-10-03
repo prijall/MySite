@@ -1,9 +1,12 @@
 .container{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    margin: 20px 0;
-}
+    justify-content: center;
+    /* margin: 20px 0; */
+    min-height: 300px;
+    flex-direction: column;
+    text-align: center;
+} 
 
 #dpic {
     margin-right: 20px; /* Space between image and text */
@@ -12,7 +15,7 @@
 .ppic {
     width: 310px; /* Adjust size as needed */
     border-radius: 50%; /* Optional: makes the image circular */
-    position: relative;
+    /* position: relative; */
 }
 
 p {
@@ -43,4 +46,51 @@ h2{
 
 .date{
     margin-top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+    background-color: #f4f4f4; */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000
+}
+
+.navbar .brand a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.nav-links a:hover {
+    color: #007bff; /* Link hover effect */
+}
+
+/* Padding for page content to avoid overlap with the fixed navbar */
+.content {
+    padding-top: 60px; /* Adjust based on the height of your navbar */
+    margin: 20px;
 }
