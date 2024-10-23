@@ -155,3 +155,49 @@ p {
     padding-left: 0;
     font-size: 19px;
 }
+
+#project.row{
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 991px)
+{
+    #project.row{
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+}
+
+
+
+.card{
+    grid-column: span 3;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 991px)
+{
+    .card{
+        grid-column: span 6;
+    }
+}
+
+.cdesc{
+    height: 30px;
+    vertical-align: top;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.container2{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
