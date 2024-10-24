@@ -201,3 +201,11 @@ p {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.ccimg{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
